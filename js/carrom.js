@@ -34,7 +34,9 @@ function Circle(x, y, r, color, dx, dy) {
             (x < 50 && y > 555) ||
             (x > 555 && y < 50) ||
             (x > 555 && y > 555)) {
-            r = 0;}
+            r = 0;
+            alert('Cobgratualations!!! You Won! :)))')    
+        }
                 
         x += dx;
         y += dy;
